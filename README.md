@@ -29,6 +29,7 @@ Both the `original/*.csv` and `combined.csv` files use the following structure, 
 - `date`:  The date of the forecast.
 - `model`: The particular forecast model. In some cases forecasters produce multiple models, e.g., FiveThirtyEight's "polls-plus" and "polls-only" models.
 - `office`: `P` for President, or `S` for Senate.
+- `state` : The two digit state abbreviation for the state being forecasted.
 - `party`: `R` for Republican, `D` for Democrat, `L` for Libertarian, and `I` for independent.
 - `candidate`: The candidate's last name.
 - `win_prob`: The probability assigned to that candidate winning. Ranges from 0 to 1.
